@@ -26,6 +26,11 @@
     "conflict": {
         "gene/bluefoot": "*"
     },
+
+    "replace": {
+        "vertex/module-tax": "*"
+    }, 
+
     "autoload": {
         "psr-4": {
             "Magento\\Framework\\": "lib/internal/Magento/Framework/",
