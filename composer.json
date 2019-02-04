@@ -11,7 +11,10 @@
         "sort-packages": true
     },
     "require": {
-        "magento/product-community-edition": "2.3.0"
+        "andreani/magento22": "@dev",
+        "magento/product-community-edition": "2.3.0",
+        "mageplaza/magento-2-spanish-language-pack": "dev-master",
+        "mageplaza/module-banner-slider": "^2.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~2.13.0",

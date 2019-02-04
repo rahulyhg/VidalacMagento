@@ -8,8 +8,9 @@
 
 <nav class="navigation" role="navigation">
     <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
-        <li class="level0 <?php if($currentUrl == '/'): ?>active<?php endif; ?>"><a href="<?php echo $storeManager->getStore()->getBaseUrl(); ?>"  img src="<?php echo $this->getViewFileUrl('images/casita.jpg'); ?>" alt="home" width="30" height="30" title="<?php echo __('Home') ?>" class="level-top"><span>Home</span></a></li>
-        <?php echo $_menu; ?>
+    <li class="level0 <?php if($currentUrl == '/'): ?>active<?php endif; ?>"><a href="<?php echo $storeManager->getStore()->getBaseUrl(); ?>"  title="<?php echo __('Home') ?>" class="level-top">   
+    <i class="fas fa-home"></i>
+    <span>Home</span></a></li>  
+    <?php echo $_menu; ?>
     </ul>
 </nav>
-

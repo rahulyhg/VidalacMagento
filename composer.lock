@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d89d1ca0be9f0c8caacd88a23fe926d8",
+    "content-hash": "83f72614e3d3f3fa6527a9c3444cf513",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -193,6 +193,39 @@
                 "Apache-2.0"
             ],
             "description": "Login with Amazon module"
+        },
+        {
+            "name": "andreani/magento22",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eandreani/magento-2.2.git",
+                "reference": "78f8824731f306f31533a33b43787c7e20934c38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eandreani/magento-2.2/zipball/78f8824731f306f31533a33b43787c7e20934c38",
+                "reference": "78f8824731f306f31533a33b43787c7e20934c38",
+                "shasum": ""
+            },
+            "require": {
+                "spipu/html2pdf": "^4.6"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-0": {
+                    "Andreani": "src"
+                },
+                "psr-4": {
+                    "Ids\\Andreani\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Módulo de envíos Andreani para Magento 2.2",
+            "time": "2018-12-14T11:40:17+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -9532,6 +9565,124 @@
             "time": "2018-08-09T15:03:40+00:00"
         },
         {
+            "name": "mageplaza/magento-2-spanish-language-pack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-spanish-language-pack.git",
+                "reference": "6cb3f39c040282b1e4fc8702614fa12dc7f55a38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-spanish-language-pack/zipball/6cb3f39c040282b1e4fc8702614fa12dc7f55a38",
+                "reference": "6cb3f39c040282b1e4fc8702614fa12dc7f55a38",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.3.13"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza team",
+                    "email": "hi@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Spanish language package for Magento 2",
+            "homepage": "https://www.mageplaza.com",
+            "time": "2019-01-26T16:33:27+00:00"
+        },
+        {
+            "name": "mageplaza/module-banner-slider",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-banner-slider.git",
+                "reference": "397096bfc87fbcfb4b76d81183dbc3e5cdad00ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-banner-slider/zipball/397096bfc87fbcfb4b76d81183dbc3e5cdad00ef",
+                "reference": "397096bfc87fbcfb4b76d81183dbc3e5cdad00ef",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\BannerSlider\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Banner Slider extension",
+            "time": "2018-12-18T13:35:20+00:00"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "7e9081781ed3a28e011db68a8df01fe19249aac0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/7e9081781ed3a28e011db68a8df01fe19249aac0",
+                "reference": "7e9081781ed3a28e011db68a8df01fe19249aac0",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "time": "2018-11-06T12:00:59+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.24.0",
             "source": {
@@ -10631,6 +10782,59 @@
             "time": "2015-10-13T18:44:15+00:00"
         },
         {
+            "name": "spipu/html2pdf",
+            "version": "v4.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipu/html2pdf.git",
+                "reference": "4898439e170ebf032513b8d3a83f0f5ffe85fece"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipu/html2pdf/zipball/4898439e170ebf032513b8d3a83f0f5ffe85fece",
+                "reference": "4898439e170ebf032513b8d3a83f0f5ffe85fece",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "tecnickcom/tcpdf": "~6.2.0"
+            },
+            "suggest": {
+                "ext-gd": "Allows to embed images into the PDF",
+                "fagundes/zff-html2pdf": "zff-html2pdf module ~0.1.1, if you need to integrate HTML2PDF with Zend Framework 2 (zf2)"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "html2pdf.class.php",
+                    "_class/exception.class.php",
+                    "_class/locale.class.php",
+                    "_class/myPdf.class.php",
+                    "_class/parsingHtml.class.php",
+                    "_class/parsingCss.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Spipu",
+                    "homepage": "https://github.com/spipu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HTML2PDF is a HTML to PDF converter written in PHP5 (it uses TCPDF). OFFICIAL PACKAGE",
+            "homepage": "http://html2pdf.fr/",
+            "keywords": [
+                "html",
+                "html2pdf",
+                "pdf"
+            ],
+            "time": "2016-04-05T12:25:17+00:00"
+        },
+        {
             "name": "spomky-labs/otphp",
             "version": "v8.3.3",
             "source": {
@@ -11378,6 +11582,68 @@
             "time": "2018-11-26T12:16:25+00:00"
         },
         {
+            "name": "tecnickcom/tcpdf",
+            "version": "6.2.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tecnickcom/TCPDF.git",
+                "reference": "367241059ca166e3a76490f4448c284e0a161f15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/367241059ca166e3a76490f4448c284e0a161f15",
+                "reference": "367241059ca166e3a76490f4448c284e0a161f15",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "config",
+                    "include",
+                    "tcpdf.php",
+                    "tcpdf_parser.php",
+                    "tcpdf_import.php",
+                    "tcpdf_barcodes_1d.php",
+                    "tcpdf_barcodes_2d.php",
+                    "include/tcpdf_colors.php",
+                    "include/tcpdf_filters.php",
+                    "include/tcpdf_font_data.php",
+                    "include/tcpdf_fonts.php",
+                    "include/tcpdf_images.php",
+                    "include/tcpdf_static.php",
+                    "include/barcodes/datamatrix.php",
+                    "include/barcodes/pdf417.php",
+                    "include/barcodes/qrcode.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nicola Asuni",
+                    "email": "info@tecnick.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+            "homepage": "http://www.tcpdf.org/",
+            "keywords": [
+                "PDFD32000-2008",
+                "TCPDF",
+                "barcodes",
+                "datamatrix",
+                "pdf",
+                "pdf417",
+                "qrcode"
+            ],
+            "time": "2018-10-16T17:24:05+00:00"
+        },
+        {
             "name": "tedivm/jshrink",
             "version": "v1.3.1",
             "source": {
@@ -11584,67 +11850,6 @@
             "time": "2018-01-15T15:26:51+00:00"
         },
         {
-            "name": "vertex/module-tax",
-            "version": "3.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/vertex/module-tax/vertex-module-tax-3.0.0.0.zip",
-                "reference": null,
-                "shasum": "5301f7a4d294cabcab3ae83e31fe5386c076520c"
-            },
-            "require": {
-                "ext-simplexml": "*",
-                "ext-soap": "*",
-                "magento/framework": "^100|^101|^102",
-                "magento/module-backend": "^100|^101",
-                "magento/module-catalog": "^100|^101|^102|^103",
-                "magento/module-config": "^100|^101",
-                "magento/module-customer": "^100|^101|^102",
-                "magento/module-directory": "^100",
-                "magento/module-eav": "^100|^101|^102",
-                "magento/module-quote": "^100|^101",
-                "magento/module-sales": "^100|^101|^102",
-                "magento/module-shipping": "^100",
-                "magento/module-store": "^100|^101",
-                "magento/module-tax": "^100",
-                "php": "^5.6|^7.0",
-                "vertex/sdk": "^1.0.0"
-            },
-            "conflict": {
-                "magento/module-gift-wrapping": ">=102",
-                "pixafy/tax": "*",
-                "pixafy/tax-ee": "*",
-                "vertex/tax": "*",
-                "vertex/tax-ee": "*"
-            },
-            "require-dev": {
-                "magento/magento2-functional-testing-framework": "^2.3",
-                "magento/marketplace-eqp": "^1.0",
-                "magento/module-offline-shipping": "^100.2",
-                "magento/module-usps": "^100.2"
-            },
-            "suggest": {
-                "magento/module-checkout": "Vertex Tax Links for Magento 2 also supports Magento's Checkout module",
-                "magento/module-gift-card-account": "Vertex Tax Links for Magento 2 also supports Magento's Gift Card Account module",
-                "magento/module-gift-wrapping": "Vertex Tax Links for Magento 2 also supports Magento's Gift Wrapping module",
-                "magento/module-multishipping": "Vertex Tax Links for Magento 2 also supports Magento's Multishipping module",
-                "magento/module-reward": "Vertex Tax Links for Magento 2 also supports Magento's Reward module"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Vertex\\Tax\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Vertex Tax Links for Magento 2"
-        },
-        {
             "name": "vertex/product-magento-module",
             "version": "3.0.0",
             "dist": {
@@ -11674,38 +11879,6 @@
                 "tax",
                 "vertex"
             ]
-        },
-        {
-            "name": "vertex/sdk",
-            "version": "1.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/vertex/sdk/vertex-sdk-1.0.0.0.zip",
-                "reference": null,
-                "shasum": "6c7ed091879e66d75faf95fed7e48751693c68c7"
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "ext-openssl": "*",
-                "ext-soap": "*",
-                "php": "^5.4|^7"
-            },
-            "require-dev": {
-                "php": "^7.1",
-                "phpmd/phpmd": "^2.6",
-                "phpunit/phpunit": "^7.2",
-                "squizlabs/php_codesniffer": "^3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Vertex\\": "src/"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Tools for communicating with Vertex Cloud and Vertex O-Series"
         },
         {
             "name": "webonyx/graphql-php",
@@ -18068,6 +18241,38 @@
             "time": "2017-04-07T12:08:54+00:00"
         },
         {
+            "name": "vertex/sdk",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/vertex/sdk/vertex-sdk-1.0.0.0.zip",
+                "reference": null,
+                "shasum": "6c7ed091879e66d75faf95fed7e48751693c68c7"
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-soap": "*",
+                "php": "^5.4|^7"
+            },
+            "require-dev": {
+                "php": "^7.1",
+                "phpmd/phpmd": "^2.6",
+                "phpunit/phpunit": "^7.2",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vertex\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Tools for communicating with Vertex Cloud and Vertex O-Series"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.5.1",
             "source": {
@@ -18171,6 +18376,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "andreani/magento22": 20,
+        "mageplaza/magento-2-spanish-language-pack": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": false,

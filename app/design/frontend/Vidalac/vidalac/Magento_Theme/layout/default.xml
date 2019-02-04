@@ -16,5 +16,6 @@
 <referenceBlock name="advanced-search-link" remove="true"/> <!--for Advanced Search-->
 <referenceBlock name="footer_links" remove="true" /> <!--for footer links-->
 <referenceBlock name="form.subscribe" remove="true" /> <!-- Subscriber>!-->
+<referenceBlock name="report.bugs" remove="true" />
 </body>
 </page>
