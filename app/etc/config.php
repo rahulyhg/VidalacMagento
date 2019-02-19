@@ -193,6 +193,7 @@ return [
         'Mageplaza_Core' => 1,
         'Mageplaza_BannerSlider' => 1,
         'Temando_Shipping' => 1,
+        'Vidalac_AddTab' => 1,
         'Vidalac_AddToCartButton' => 0
     ]
 ];

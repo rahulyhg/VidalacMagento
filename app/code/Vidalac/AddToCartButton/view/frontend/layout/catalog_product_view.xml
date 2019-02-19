@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+<body>    
+    <referenceBlock name="product.info.form.options" htmlClass="css_class" htmlTag="div">
+        <block class="Magento\Catalog\Block\Product\View"
+            name="product.addtocart.info" as="product_addtocart_info"
+            template="Vidalac_AddToCartButton::product/view/addtocart.phtml" 
+            before="product.options.wrapper">
+        </block>
+    </referenceBlock>
+</body>
+</page
