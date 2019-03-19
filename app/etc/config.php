@@ -156,7 +156,7 @@ return [
         'Magento_Elasticsearch' => 1,
         'Magento_CustomerAnalytics' => 1,
         'Magento_Wishlist' => 1,
-        'Ids_Andreani' => 1,
+        'Ids_Andreani' => 0,
         'Magento_Signifyd' => 1,
         'Magento_Sitemap' => 1,
         'Magento_CheckoutAgreements' => 1,
