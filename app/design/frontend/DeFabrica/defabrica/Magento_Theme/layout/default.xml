@@ -1,0 +1,21 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<body>
+<referenceBlock name="logo">
+<arguments>
+<argument name="logo_file" xsi:type="string">/images/logo.png</argument>
+<argument name="logo_img_width" xsi:type="number">200</argument>
+<argument name="logo_img_height" xsi:type="number">200</argument>
+</arguments>
+</referenceBlock>
+<referenceBlock name="catalog.compare.sidebar" remove="true" />
+<referenceBlock name="wishlist_sidebar" remove="true" />
+<referenceBlock name="register-link" remove="true" /> <!--for Create Account Link-->
+<referenceBlock name="authorization-link" remove="true" />  <!--for Sign In Link  -->
+<referenceBlock name="wish-list-link" remove="true" /> <!--for WishList Link-->
+<referenceBlock name="my-account-link" remove="true" />   <!-- for acount Link> -->
+<referenceBlock name="advanced-search-link" remove="true"/> <!--for Advanced Search-->
+<referenceBlock name="footer_links" remove="true" /> <!--for footer links-->
+<referenceBlock name="form.subscribe" remove="true" /> <!-- Subscriber>!-->
+<referenceBlock name="report.bugs" remove="true" />
+</body>
+</page>
