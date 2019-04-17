@@ -3,6 +3,6 @@
 <body>
     <referenceContainer name="catalog.topnav">
         <block class="Magento\Framework\View\Element\Html\Link\Current" name="navigationlink">
-                    <block class="DeFabrica\NavigationLink\Block\Links\Link" name="¿queesdefabrica.com?" after='Marcas' />
+                    <block class="DeFabrica\NavigationLink\Block\Links\Link" name="newpage" after='Home' />
      </referenceContainer>
 </body>
