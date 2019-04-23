@@ -1,8 +1,18 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 <body>
-    <referenceContainer name="catalog.topnav">
-        <block class="Magento\Framework\View\Element\Html\Link\Current" name="navigationlink">
-                    <block class="DeFabrica\NavigationLink\Block\Links\Link" name="newpage" after='Home' />
-     </referenceContainer>
+     <referenceBlock name="header.links">
+         <block class="DeFabrica\NavigationLink\Block\Link" name="add-new-header-link">
+             <arguments>
+     <argument name="label" xsi:type="string" translate="true">New Link</argument>
+     <argument name="path" xsi:type="string" translate="true">probando</argument>
+     </arguments>
+         </block>
+     </referenceBlock>
 </body>
