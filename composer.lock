@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "83f72614e3d3f3fa6527a9c3444cf513",
+    "content-hash": "432a702c626188564fbd5081ce241cda",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -9681,6 +9681,58 @@
             ],
             "description": "Mageplaza Core for Magento 2",
             "time": "2018-11-06T12:00:59+00:00"
+        },
+        {
+            "name": "mercadopago/magento2-plugin",
+            "version": "2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mercadopago/cart-magento2.git",
+                "reference": "af1d905c632fae99181e56d583b86f7098f0df09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mercadopago/cart-magento2/zipball/af1d905c632fae99181e56d583b86f7098f0df09",
+                "reference": "af1d905c632fae99181e56d583b86f7098f0df09",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento-composer-installer": "*"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "~1.2",
+                "lusitanian/oauth": "~0.3 <=0.7.0",
+                "magento/product-community-edition": "2.*",
+                "pdepend/pdepend": "2.2.2",
+                "phpmd/phpmd": "@stable",
+                "phpunit/phpunit": "4.1.0",
+                "sjparkinson/static-review": "~4.1",
+                "squizlabs/php_codesniffer": "1.5.3"
+            },
+            "type": "magento2-component",
+            "autoload": {
+                "psr-4": {
+                    "MercadoPago\\Core\\": "src/MercadoPago/Core",
+                    "MercadoPago\\MercadoEnvios\\": "src/MercadoPago/MercadoEnvios"
+                },
+                "files": [
+                    "src/MercadoPago/Core/registration.php",
+                    "src/MercadoPago/MercadoEnvios/registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mercado Pago",
+                    "email": "info@mercadopago.com"
+                }
+            ],
+            "description": "Mercado Pago Magento 2 Plugin",
+            "time": "2019-01-30T19:51:34+00:00"
         },
         {
             "name": "monolog/monolog",

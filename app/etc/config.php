@@ -193,8 +193,11 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Mageplaza_Core' => 1,
         'Mageplaza_BannerSlider' => 1,
+        'MercadoPago_Core' => 1,
+        'MercadoPago_MercadoEnvios' => 1,
         'Temando_Shipping' => 1,
         'Vidalac_AddTab' => 1,
-        'Vidalac_AddToCartButton' => 0
+        'Vidalac_AddToCartButton' => 0,
+        'Vidalac_Sucursal' => 1
     ]
 ];
