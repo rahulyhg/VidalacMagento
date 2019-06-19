@@ -12,6 +12,7 @@
     },
     "require": {
         "andreani/magento22": "@dev",
+        "eusonlito/magento2-language-es_es": "dev-master",
         "magento/product-community-edition": "2.3.0",
         "mageplaza/magento-2-spanish-language-pack": "dev-master",
         "mageplaza/module-banner-slider": "^2.0",

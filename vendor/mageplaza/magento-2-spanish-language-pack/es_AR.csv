@@ -788,7 +788,7 @@ Locale,"Configuración regional",module,Magento_Backend
 "Store Hours of Operation","Horario de la tienda",module,Magento_Backend
 Country,País,module,Magento_Backend
 Region/State,Región/Provincia,module,Magento_Backend
-"ZIP/Postal Code","Código Postal",module,Magento_Backend
+ZIP/Postal Code,Código Postal,module,Magento_Backend
 City,Ciudad,module,Magento_Backend
 "Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Backend
 "Street Address Line 2","Dirección, segunda línea",module,Magento_Backend

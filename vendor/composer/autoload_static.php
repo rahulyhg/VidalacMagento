@@ -246,6 +246,7 @@ class ComposerStaticInit18f4fa67196affaebb5f5216bc81e60e
         '24a5693ab78636f7a23448ee74523987' => __DIR__ . '/..' . '/spipu/html2pdf/_class/parsingHtml.class.php',
         '30eee86291d721c2174ad40239331e78' => __DIR__ . '/..' . '/spipu/html2pdf/_class/parsingCss.class.php',
         'fd237a2c17380b863755afcab25e4c1a' => __DIR__ . '/..' . '/andreani/magento22/registration.php',
+        '73fecc78a101e5de7d675e112dde70de' => __DIR__ . '/..' . '/eusonlito/magento2-language-es_es/registration.php',
         'eda65932675b68b5aee4503e0762d64d' => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
         'bfcd7b977e821ec6d1fec907ec0c0af8' => __DIR__ . '/..' . '/mageplaza/magento-2-spanish-language-pack/registration.php',
         '3da90505d6bf137118710bda11c7434c' => __DIR__ . '/..' . '/mageplaza/module-banner-slider/registration.php',

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "432a702c626188564fbd5081ce241cda",
+    "content-hash": "fa5d9e48caefa515b02fba4226bffd1f",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -1154,6 +1154,43 @@
                 "symfony"
             ],
             "time": "2017-10-22T18:56:00+00:00"
+        },
+        {
+            "name": "eusonlito/magento2-language-es_es",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eusonlito/magento2-language-es_es.git",
+                "reference": "071dd4c05fa8360730b8f47cb38d7429de91e787"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eusonlito/magento2-language-es_es/zipball/071dd4c05fa8360730b8f47cb38d7429de91e787",
+                "reference": "071dd4c05fa8360730b8f47cb38d7429de91e787",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": ">=100"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lito",
+                    "email": "lito@eordes.com",
+                    "homepage": "https://about.me/lito"
+                }
+            ],
+            "description": "Magento 2 Spanish (Spain) language package - Paquete de idioma Español (España) para Magento 2",
+            "time": "2018-01-17T15:05:40+00:00"
         },
         {
             "name": "google/recaptcha",
@@ -18430,6 +18467,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "andreani/magento22": 20,
+        "eusonlito/magento2-language-es_es": 20,
         "mageplaza/magento-2-spanish-language-pack": 20,
         "phpmd/phpmd": 0
     },

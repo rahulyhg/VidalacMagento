@@ -245,6 +245,7 @@ return array(
     '24a5693ab78636f7a23448ee74523987' => $vendorDir . '/spipu/html2pdf/_class/parsingHtml.class.php',
     '30eee86291d721c2174ad40239331e78' => $vendorDir . '/spipu/html2pdf/_class/parsingCss.class.php',
     'fd237a2c17380b863755afcab25e4c1a' => $vendorDir . '/andreani/magento22/registration.php',
+    '73fecc78a101e5de7d675e112dde70de' => $vendorDir . '/eusonlito/magento2-language-es_es/registration.php',
     'eda65932675b68b5aee4503e0762d64d' => $vendorDir . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
     'bfcd7b977e821ec6d1fec907ec0c0af8' => $vendorDir . '/mageplaza/magento-2-spanish-language-pack/registration.php',
     '3da90505d6bf137118710bda11c7434c' => $vendorDir . '/mageplaza/module-banner-slider/registration.php',

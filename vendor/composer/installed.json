@@ -2236,6 +2236,45 @@
         "description": "Library for parsing swagger documentation into PHP entities for use in testing and code generation"
     },
     {
+        "name": "eusonlito/magento2-language-es_es",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eusonlito/magento2-language-es_es.git",
+            "reference": "071dd4c05fa8360730b8f47cb38d7429de91e787"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eusonlito/magento2-language-es_es/zipball/071dd4c05fa8360730b8f47cb38d7429de91e787",
+            "reference": "071dd4c05fa8360730b8f47cb38d7429de91e787",
+            "shasum": ""
+        },
+        "require": {
+            "magento/framework": ">=100"
+        },
+        "time": "2018-01-17T15:05:40+00:00",
+        "type": "magento2-language",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "registration.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Lito",
+                "email": "lito@eordes.com",
+                "homepage": "https://about.me/lito"
+            }
+        ],
+        "description": "Magento 2 Spanish (Spain) language package - Paquete de idioma Español (España) para Magento 2"
+    },
+    {
         "name": "facebook/webdriver",
         "version": "1.6.0",
         "version_normalized": "1.6.0.0",
